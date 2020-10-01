@@ -1,78 +1,175 @@
-<!--Caroline Oberg-->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Home Page 1</title>
+  <meta charset="utf-8">
+  <title>Home</title>
+  <style>
+    body {
+      font-family: Times, serif;
+      background-image: url("img/bgleaves.jpg");
+      background-repeat: no-repeat;
+      width: 100%;
+      color: #17311d;
+    }
+
+    #layer {
+      background-color: rgba(255,252,233,.85);
+      margin-left: 30px;
+      margin-right: 50px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      padding: 15px;
+    }
+
+    .section {
+      background-color: rgba(255,254,246,.65);
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 15px;
+      margin-bottom: 10px;
+      line-height: 22px;
+      font-size: 16px;
+    }
+   
+   /* nav bar elements */
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #c94f7a;
+      border: 1px solid #942a4f;
+      border-radius: 0 21px 21px 0;
+      width: 80%;
+      margin-left: -16px;
+      margin-bottom: 15px;
+    }
+
+    li {
+      display: inline;
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: #fff;
+      font-size: 18px;
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-variant-caps: small-caps;
+    }
+
+    li a:hover {
+      background-color: #942a4f;
+      text-decoration: none;
+    }
+
+    /* table elements */
+    table {
+      width: 350px;
+      border-collapse: collapse;
+      border: 1px solid #6ea980;
+    }
+
+    td {
+      padding: 10px;
+    }
+
+    tr:nth-child(odd) {
+      background-color: rgba(236,231,202,.7);
+    }
+
+    th {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      text-align: left;
+      background-color: rgba(110,169,128,.8);
+    }
+
+</style>
 </head>
+
 <body>
+  <div id="layer">
 	<header>
-		<!-- Nav section -->
+    <h1 style="color: #4a7d4c; font-size:60px; margin-top:-5px; margin-bottom:10px; font-variant-caps: small-caps; font-weight:bold;"><i>Simpson Garden Center</i></h1>
       <nav>
         <ul>
           <li>
-            <a href="index.html">Home Page</a>
-          </li>
-
-          <li>
-            <a href="about.html">About</a>
-          </li>
-
-          <li>
-            <a href="tools.html">Tools</a>
+            <a href="index.html">home</a>
           </li>
           <li>
-            <a href="seeds.html">Seeds</a>
-          </li>          
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="shop.html">shop</a>
+          </li> 
+          <li>
+            <a href="tips_tricks.html">tips & tricks</a>
+          </li>        
+          <li>
+            <a href="top_plants.html">our picks</a>
+          </li>
+           <li>
+            <a href="contact.html">contact</a>
+          </li> 
         </ul>
       </nav>
-		<h1>Simpson Garden Center</h1>
 	</header>
-	
-<h1>Home Page</h1>
+<div class="section">
+<h2 style="margin-top: 2px;">Welcome to the Simpson Garden Center!</h2>
 
-<p>Welcome to the Simpson Garden Center!</p>
-<p>We have everything you need to know about our store on our website- everything rom garden tools, to seeds, to store hours.</p>
+<p>We are a growing community on Simpson College's campus, and would love to interact with you! Our main hub is located near the Carver Science Building, but some of our members can be found outside of Kent and in Buxton Park oftentimes.</p>
 
-<p> If you want to know more about us, feel free to visit the about page. Otherwise our store hours are listed below. Please drop in any time we are open. </p>
+<p>Our main building's hours are below. Please feel free to stop by for a chat if you're interested in botany and contributing to the flourishing natural environment around our campus. We would love to have you on our team!</p>
+
 <table>
   <tr>
-    <td>Day</td>
-    <td>Hours</td>
+    <th>Day</th>
+    <th>Hours</th>
   </tr>
   <tr>
     <td>Sunday</td>
-    <td>8:00 a.m.-6:00 p.m.</td>
+    <td>9:00am –– 6:00pm</td>
   </tr>
   <tr>
     <td>Monday</td>
-    <td>7:00 a.m.-8:00 p.m.</td>
+    <td>7:00am –– 8:00pm</td>
   </tr>
   <tr>
     <td>Tuesday</td>
-    <td>7:00 a.m.-8:00 p.m.</td>
+    <td>7:00am –– 8:00pm</td>
   </tr>
   <tr>
     <td>Wednesday</td>
-    <td>7:00 a.m.-8:00 p.m.</td>
+    <td>7:00am –– 8:00pm</td>
   </tr>
   <tr>
     <td>Thursday</td>
-    <td>7:00 a.m.-8:00 p.m.</td>
+    <td>7:00am –– 8:00pm</td>
   </tr>
   <tr>
     <td>Friday</td>
-    <td>7:00 a.m.-8:00 p.m.</td>
+    <td>7:00am –– 6:00pm</td>
   </tr>
   <tr>
     <td>Saturday</td>
-    <td>7:00 a.m.- 6:00 p.m.</td>
+    <td>9:00am –– 6:00pm</td>
   </tr>
 
 </table>
-<footer>
-  Copyright 2020 by Caroline Oberg
+</div>
+<footer style="font-size: 12px; text-align:center;">
+  Copyright to Kate Furr
 </footer>
+</div>
 </body>
 </html>
